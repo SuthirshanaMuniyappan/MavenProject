@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		+ "src\\test\\resources\\LoginPage.feature", 
 		glue = {"stepDef"},
 		plugin = {"pretty", "html:target/result.html"},
-		dryRun = false
+		dryRun = true
 		
 		) 
 public class TestRunnerClass {
