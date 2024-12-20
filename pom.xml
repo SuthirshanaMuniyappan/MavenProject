@@ -11,7 +11,7 @@
 <version>3.0.0-M4</version>
 <configuration>
 <includes>
-<include>**/runner/*.java</include>
+<include>**/TestRunnerClass*.java</include>
 </includes>
 <testFailureIgnore>true</testFailureIgnore>
 </configuration>
