@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunnerClass
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.84 s <<< FAILURE! -- in runner.TestRunnerClass
+Login Page Functionality.Login with empty credentials -- Time elapsed: 4.305 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'The User leaves the "<username>" and "<password>" fields empty' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("The User leaves the {string} and {string} fields empty")
+public void the_user_leaves_the_and_fields_empty(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("A valid msg should be displayed")
+public void a_valid_msg_should_be_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
