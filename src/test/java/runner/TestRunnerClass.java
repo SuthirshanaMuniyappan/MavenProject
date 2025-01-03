@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue = {"stepDef"},
 		tags = "@All_scenario",
 		plugin = {"pretty", "html:target/result.html"},
-		dryRun = false
+		dryRun = true
 		
 		) 
 public class TestRunnerClass {
