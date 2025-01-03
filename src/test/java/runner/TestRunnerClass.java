@@ -7,11 +7,12 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "C:\\Users\\TVDI-00\\eclipse-workspace\\mavenProject\\"
-		+ "src\\test\\resources\\LoginPage.feature", 
+@CucumberOptions(features = "C:\\Users\\smuniyappan2\\eclipse-workspace\\MavenProject\\"
+		+ "src\\test\\resources", 
 		glue = {"stepDef"},
+		tags = "@All_scenario",
 		plugin = {"pretty", "html:target/result.html"},
-		dryRun = true
+		dryRun = false
 		
 		) 
 public class TestRunnerClass {
